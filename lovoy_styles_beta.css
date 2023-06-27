@@ -1,0 +1,52 @@
+@charset "UTF-8";
+@page {
+  size: A4 landscape;
+}
+
+
+
+.list-heading{
+    color: #FFFFFF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18pt;
+    line-height: 24pt;
+    text-align: left;
+    text-indent: 0.2cm;
+    border: 0.5pt solid rgba(0,51,81,1.00);
+    border-spacing: 6pt 6pt;
+    background-color: rgba(0,71,91,1.00);
+    width: 14.92cm;
+}
+.normal-text {
+    font-family: calibri;
+    font-size: 11pt;
+    text-align: left;
+}
+.first-level {
+    font-family: Calibri;
+    font-size: 14pt;
+    text-align: left;
+    text-indent: 0.2cm;
+    list-style-position: outside;
+    list-style-type: hebrew;
+}
+.note {
+    font-family: Calibri;
+    font-size: 11pt;
+    text-align: left;
+    text-indent: 0.65cm;
+    color: rgba(0,0,0,1.00);
+    font-weight: normal;
+    border: 0.25pt solid rgba(222,234,246,1.00);
+    -webkit-box-shadow: 0px 0px 0px rgba(222,234,246,1.00);
+    box-shadow: 0px 0px 0px rgba(222,234,246,1.00);
+    margin-left: 2px;
+    background-color: rgba(222,234,246,1.00);
+    border-spacing: 12px 6px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	width: 14.92cm;
+}
+
